@@ -1,0 +1,49 @@
+/* DetalheLivro.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.backLink {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.backLink:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.imageWrapper {
+    flex: 1;
+}
+
+.bookImage {
+    height: auto;
+    border-radius: 8px;
+}
+
+.bookInfo {
+    flex: 2;
+}
+
+.bookTitle {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+}
+
+.bookDescription {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}

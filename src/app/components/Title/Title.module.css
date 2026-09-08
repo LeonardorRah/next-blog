@@ -1,0 +1,21 @@
+/* Title.module.css */
+
+.title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.3rem;
+    }
+}

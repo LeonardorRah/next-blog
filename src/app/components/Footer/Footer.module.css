@@ -1,0 +1,37 @@
+/* Footer.module.css */
+
+.footer {
+    background: #ffffff;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+    margin-top: auto;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.text {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1.5rem;
+    }
+
+    .text {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 1rem;
+    }
+
+    .text {
+        font-size: 0.8rem;
+    }
+}
